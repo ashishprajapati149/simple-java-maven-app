@@ -1,4 +1,7 @@
 pipeline {
+    tools {
+        maven 'maven-latest'
+    }
     agent any
     stages {
         stage('Build') {
